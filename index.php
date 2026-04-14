@@ -4,7 +4,7 @@
 
 <html>
 <head>
-    <title>Kelab E-Sport</title>
+    <title>NASAt</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
