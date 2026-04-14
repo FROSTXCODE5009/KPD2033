@@ -1,0 +1,73 @@
+/* Fail: style.css */
+body {
+    background-color: #1a1a2e; /* Tema gelap E-Sport */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #00d4ff;
+    text-shadow: 2px 2px #ff00c8;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #16213e;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    border: 2px solid #00d4ff;
+}
+
+th {
+    background-color: #0f3460;
+    color: #00d4ff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #243447;
+}
+
+tr:hover {
+    background-color: #1f4068;
+}
+
+.btn-tambah {
+    background: linear-gradient(45deg, #ff00c8, #00d4ff);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-tambah:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00d4ff;
+}
+
+.action-link {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.edit { color: #ffca28; }
+.delete { color: #ff4d4d; }
